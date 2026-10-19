@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HunSync adatvédelem</title>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <div>
+      <h1>Adatvédelmi tájékoztató</h1>
+      <p class="lead">HunSync macOS-alkalmazás · hatályos: 2026. október 19.</p>
+    </div>
+  </header>
+
+  <h2>Milyen adatokhoz fér hozzá</h2>
+  <p>Ha a felhasználó bejelentkezik Google-fiókjával, a HunSync a
+  <code>https://www.googleapis.com/auth/drive.readonly</code> hozzáférést kéri.
+  Ezzel kizárólag azoknak a Google Drive fájloknak és mappáknak a nevét,
+  módosítási idejét és tartalmát olvassa, amelyek linkjét a felhasználó maga
+  adta meg az alkalmazásban, valamint a fiók e-mail-címét, hogy a
+  beállításokban megjelenítse, ki van bejelentkezve. Az alkalmazás semmit nem
+  módosít, nem töröl és nem tölt fel a Google Drive-ra.</p>
+
+  <h2>Mire használja</h2>
+  <p>A fájlok letöltésére a felhasználó által kiválasztott helyi mappákba, a
+  felhasználó saját Mac gépén. Más célra az adatokat nem használja.</p>
+
+  <h2>Hol tárolja</h2>
+  <p>A letöltött fájlok csak a felhasználó gépén, az általa választott
+  mappákban vannak. A bejelentkezési tokenek a macOS kulcskarikájában
+  tárolódnak. Az alkalmazás nem működtet szervert: adatot nem küld a
+  fejlesztőnek vagy harmadik félnek, nem gyűjt statisztikát és nem
+  jelenít meg hirdetést. Hálózati kapcsolatot kizárólag a Google
+  szervereivel létesít.</p>
+
+  <h2>Hozzáférés visszavonása, törlés</h2>
+  <p>Az alkalmazás beállításaiban a Kijelentkezés törli a tokeneket a gépről,
+  és visszavonja a hozzáférést a Google-nél. A hozzáférés a
+  <a href="https://myaccount.google.com/permissions">Google-fiók
+  beállításaiban</a> is bármikor visszavonható. A letöltött fájlokat a
+  felhasználó maga törölheti a gépéről.</p>
+
+  <h2>Google API szolgáltatások</h2>
+  <p>A HunSync a Google API-kból kapott adatok használata és más
+  alkalmazásba továbbítása során betartja a
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>
+  előírásait, a Limited Use követelményeket is beleértve.</p>
+
+  <h2>English summary</h2>
+  <p>With the user's consent HunSync requests read-only Google Drive access
+  (<code>drive.readonly</code>) and uses it only to download the files and
+  folders whose links the user adds, into local folders the user selects on
+  their own Mac, and to show the signed-in account's email address. Sign-in
+  tokens are stored in the macOS Keychain. HunSync runs no server, sends no
+  data to the developer or any third party, collects no analytics and never
+  modifies Google Drive. Access can be revoked by signing out in the app or at
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+  HunSync's use and transfer of information received from Google APIs adheres
+  to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google
+  API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <footer><a href="index.html">HunSync</a> · © 2026 Vaszkó Attila ·
+  <a href="https://github.com/vaszkoattila">GitHub</a></footer>
+</main>
+</body>
+</html>
